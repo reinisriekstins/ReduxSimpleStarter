@@ -1,11 +1,11 @@
 'use strict';
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import YTSearch from 'youtube-api-search';
-import _ from 'lodash';
+import React, {Component} from 'react';
+import ReactDOM           from 'react-dom';
+import YTSearch           from 'youtube-api-search';
+import _                  from 'lodash';
 
-import SearchBar from './components/search_bar';
-import VideoList from './components/video_list';
+import SearchBar   from './components/search_bar';
+import VideoList   from './components/video_list';
 import VideoDetail from './components/video_detail';
 
 const API_KEY = 'AIzaSyBIzU0R6IRQ3pQ7ltgP_n0b7BzNC-E55Xc';
